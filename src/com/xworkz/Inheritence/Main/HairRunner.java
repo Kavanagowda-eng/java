@@ -32,5 +32,14 @@ public class HairRunner {
 
         System.out.println("--------------------------------");
 
+        Wig wig1=new Wig();
+        wig1.type();
+        wig1.curl();
+        wig1.straight();
+        wig1.color();
+        wig1.style();
+
+        System.out.println("--------------------------------");
+
     }
 }

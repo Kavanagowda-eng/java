@@ -19,14 +19,30 @@ public class ContainerRunner {
         container1.empty();
         container1.fill();
         container1.size();
+        System.out.println("--------------------------------");
 
-        Container container2 = new Bottel();
-        container2.capacity();
-        container2.color();
-        container2.empty();
-        container2.fill();
-        container2.size();
+        Bottel bottel1 = new Bottel();
+        bottel1.capacity();
+        bottel1.color();
+        bottel1.empty();
+        bottel1.fill();
+        bottel1.size();
+        System.out.println("--------------------------------");
 
+        Bottel bottel2 = new Bottel();
+        bottel2.capacity();
+        bottel2.color();
+        bottel2.empty();
+        bottel2.fill();
+        bottel2.size();
+        System.out.println("--------------------------------");
 
+        Bottel bottel3= new Bottel();
+        bottel3.capacity();
+        bottel3.color();
+        bottel3.empty();
+        bottel3.fill();
+        bottel3.size();
+        System.out.println("--------------------------------");
     }
 }

@@ -11,6 +11,7 @@ public class HomeRunner {
             home.hasKitchen();
             home.hasGarden();
             home.secureDoors();
+        System.out.println("--------------------------------");
 
         Home home1 = new Apartment();
         home1.provideShelter();
@@ -18,6 +19,7 @@ public class HomeRunner {
         home1.hasKitchen();
         home1.hasGarden();
         home1.secureDoors();
+        System.out.println("--------------------------------");
 
         Home home2 = new Apartment();
         home2.provideShelter();
@@ -25,6 +27,7 @@ public class HomeRunner {
         home2.hasKitchen();
         home2.hasGarden();
         home2.secureDoors();
+        System.out.println("--------------------------------");
 
         Home home3 = new Apartment();
         home3.provideShelter();
@@ -32,6 +35,7 @@ public class HomeRunner {
         home3.hasKitchen();
         home3.hasGarden();
         home3.secureDoors();
+        System.out.println("--------------------------------");
 
         }
     }

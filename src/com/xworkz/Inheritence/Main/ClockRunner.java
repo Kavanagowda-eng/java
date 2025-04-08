@@ -19,5 +19,30 @@ public class ClockRunner {
         casio.lens();
         casio.color();
         casio.quality();
+        System.out.println("--------------------------------");
+
+        Casio casio1=new Casio();
+        casio1.type();
+        casio1.duration();
+        casio1.lens();
+        casio1.color();
+        casio1.quality();
+        System.out.println("--------------------------------");
+
+        Casio casio2=new Casio();
+        casio2.type();
+        casio2.duration();
+        casio2.lens();
+        casio2.color();
+        casio2.quality();
+        System.out.println("--------------------------------");
+
+        Casio casio3=new Casio();
+        casio3.type();
+        casio3.duration();
+        casio3.lens();
+        casio3.color();
+        casio3.quality();
+        System.out.println("--------------------------------");
     }
 }

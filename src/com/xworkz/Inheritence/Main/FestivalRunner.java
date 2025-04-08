@@ -12,6 +12,7 @@ public class FestivalRunner {
             festival.distributeSweets();
             festival.performRituals();
             festival.enjoyFireworks();
+            System.out.println("--------------------------------");
 
             Festival festival1 = new Diwali();
             festival1.celebrate();
@@ -19,6 +20,7 @@ public class FestivalRunner {
             festival1.distributeSweets();
             festival1.performRituals();
             festival1.enjoyFireworks();
+            System.out.println("--------------------------------");
 
             Festival festival2 = new Festival();
             festival2.celebrate();
@@ -26,6 +28,7 @@ public class FestivalRunner {
             festival2.distributeSweets();
             festival2.performRituals();
             festival2.enjoyFireworks();
+            System.out.println("--------------------------------");
 
             Festival festival3 = new Festival();
             festival3.celebrate();
@@ -33,6 +36,7 @@ public class FestivalRunner {
             festival3.distributeSweets();
             festival3.performRituals();
             festival3.enjoyFireworks();
+            System.out.println("--------------------------------");
         }
     }
 

@@ -8,16 +8,16 @@ public class Tree {
         System.out.println("Oak");
     }
     public void treeAge() {
-        System.out.println("15 years");
+        System.out.println("10 years");
     }
     public void treeHeight(){
-        System.out.println("2 feet");
+        System.out.println("3 feet");
     }
     public void place(){
-        System.out.println("Jagalur");
+        System.out.println("hiriyur");
     }
     public void NoOfTrees(){
-        System.out.println("15");
+        System.out.println("10");
     }
 
 }

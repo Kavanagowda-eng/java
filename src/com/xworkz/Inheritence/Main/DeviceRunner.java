@@ -11,6 +11,7 @@ public class DeviceRunner {
         device.playGames();
         device.track();
         device.videoCall();
+        System.out.println("--------------------------------");
 
         Device device1 = new Phone();
         device1.call();
@@ -18,6 +19,7 @@ public class DeviceRunner {
         device1.playGames();
         device1.track();
         device1.videoCall();
+        System.out.println("--------------------------------");
 
         Device device2 = new Phone();
         device2.call();
@@ -25,6 +27,7 @@ public class DeviceRunner {
         device2.playGames();
         device2.track();
         device2.videoCall();
+        System.out.println("--------------------------------");
 
         Device device3 = new Phone();
         device3.call();
@@ -32,6 +35,7 @@ public class DeviceRunner {
         device3.playGames();
         device3.track();
         device3.videoCall();
+        System.out.println("--------------------------------");
 
 
     }

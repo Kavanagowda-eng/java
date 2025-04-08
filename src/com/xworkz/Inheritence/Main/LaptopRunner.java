@@ -11,7 +11,6 @@ public class LaptopRunner {
         laptop.storage();
         laptop.processor();
         laptop.display();
-
         System.out.println("------------------------");
 
         Laptop laptop4=new Acer();
@@ -20,7 +19,6 @@ public class LaptopRunner {
         laptop4.storage();
         laptop4.processor();
         laptop4.display();
-
         System.out.println("------------------------");
 
         Acer acer=new Acer();
@@ -29,6 +27,7 @@ public class LaptopRunner {
         acer.storage();
         acer.processor();
         acer.display();
+        System.out.println("--------------------------------");
     }
 }
 

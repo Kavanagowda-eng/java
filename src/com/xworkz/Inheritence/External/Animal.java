@@ -19,6 +19,7 @@ public class Animal {
         public void sleep() {
             System.out.println("Elephant sleeping");
         }
+        public void play(){System.out.println("Elephant playing");}
 }
 
 

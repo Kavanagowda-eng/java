@@ -11,6 +11,7 @@ public class HospitalRunner {
             hospital.dischargePatient();
             hospital.conductSurgery();
             hospital.issueMedicine();
+            System.out.println("--------------------------------");
 
             Hospital hospital1 = new SpecializedHospital();
             hospital1.admitPatient();
@@ -18,6 +19,7 @@ public class HospitalRunner {
             hospital1.dischargePatient();
             hospital1.conductSurgery();
             hospital1.issueMedicine();
+            System.out.println("--------------------------------");
 
             Hospital hospital2 = new SpecializedHospital();
             hospital2.admitPatient();
@@ -25,6 +27,7 @@ public class HospitalRunner {
             hospital2.dischargePatient();
             hospital2.conductSurgery();
             hospital2.issueMedicine();
+            System.out.println("--------------------------------");
 
             Hospital hospital3 = new SpecializedHospital();
             hospital3.admitPatient();
@@ -32,6 +35,7 @@ public class HospitalRunner {
             hospital3.dischargePatient();
             hospital3.conductSurgery();
             hospital3.issueMedicine();
+            System.out.println("--------------------------------");
         }
 
         }

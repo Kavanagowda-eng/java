@@ -11,6 +11,7 @@ public class BookRunner {
         book.read();
         book.rewrite();
         book.write();
+        System.out.println("--------------------------------");
 
         Book book1 = new Novel();
         book1.edit();
@@ -18,6 +19,7 @@ public class BookRunner {
         book1.read();
         book1.rewrite();
         book1.write();
+        System.out.println("--------------------------------");
 
         Book book2 = new Novel();
         book2.edit();
@@ -25,6 +27,7 @@ public class BookRunner {
         book2.read();
         book2.rewrite();
         book2.write();
+        System.out.println("--------------------------------");
 
         Book book3 = new Novel();
         book3.edit();
@@ -32,6 +35,7 @@ public class BookRunner {
         book3.read();
         book3.rewrite();
         book3.write();
+        System.out.println("--------------------------------");
 
 
     }

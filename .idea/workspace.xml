@@ -5,44 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8633642c-ada3-4523-b8d3-584940cde612" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/External/Bar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/Main/AnimalRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/Main/BarRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/Main/CarRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/Main/FoodRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/Main/HomeRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/Main/HostelRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/Main/SchoolRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/Main/VillageRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/internal/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/External/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/AnimalRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/Apartment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/internal/Apartment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/BarRunner.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/Car.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/CarRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/Elephant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/internal/Elephant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/External/Food.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/FoodRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/HighSchool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/internal/HighSchool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/External/Home.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/External/Textbook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/External/Textbook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/HomeRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/Hostel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/External/Hostel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/HostelRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/Main/EmployeeRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/Main/EmployeeRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ModernHostel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/internal/ModernHostel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ModernVillage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/internal/ModernVillage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/internal/Pizza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/School.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/External/School.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/SchoolRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/SportsBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/internal/SportsBar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/External/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/Village.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/External/Village.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/VillageRunner.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -89,18 +61,22 @@
     "Application.ApplianceRunner.executor": "Run",
     "Application.BarRunner.executor": "Run",
     "Application.CarRunner.executor": "Run",
+    "Application.EarphoneRunner.executor": "Run",
     "Application.FoodRunner.executor": "Run",
     "Application.HomeRunner.executor": "Run",
     "Application.HospitalRunner.executor": "Run",
     "Application.HostelRunner.executor": "Run",
     "Application.MobileRunner.executor": "Run",
     "Application.ParkRunner.executor": "Run",
+    "Application.PowerBankRunner.executor": "Run",
     "Application.SchoolRunner.executor": "Run",
     "Application.TempleRunner.executor": "Run",
+    "Application.TextbookRunner.executor": "Run",
+    "Application.TshirtRunner.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/kavan"
+    "last_opened_file_path": "C:/Users/kavan/OneDrive/Desktop/Xworkz/java/Principles/src/com/xworkz/Inheritence"
   },
   "keyToStringList": {
     "ChangesTree.GroupingKeys": [
@@ -157,7 +133,31 @@
       <option name="project" value="LOCAL" />
       <updated>1743664269418</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="commit">
+      <option name="closed" value="true" />
+      <created>1743700529451</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1743700529451</updated>
+    </task>
+    <task id="LOCAL-00007" summary="commit">
+      <option name="closed" value="true" />
+      <created>1743707018648</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1743707018648</updated>
+    </task>
+    <task id="LOCAL-00008" summary="commit">
+      <option name="closed" value="true" />
+      <created>1743714361539</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1743714361539</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

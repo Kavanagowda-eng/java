@@ -11,6 +11,7 @@ public class JamRunner {
         jam.jamName();
         jam.quantity();
         jam.totalCost();
+        System.out.println("--------------------------------");
 
         Jam jam1=new Kissan();
         jam1.totalCost();
@@ -18,6 +19,7 @@ public class JamRunner {
         jam1.jamColour();
         jam1.jamFlavour();
         jam1.quantity();
+        System.out.println("--------------------------------");
 
         Jam jam2=new Kissan();
         jam2.totalCost();
@@ -25,6 +27,7 @@ public class JamRunner {
         jam2.jamColour();
         jam2.jamFlavour();
         jam2.quantity();
+        System.out.println("--------------------------------");
 
         Jam jam3=new Kissan();
         jam3.totalCost();
@@ -32,6 +35,7 @@ public class JamRunner {
         jam3.jamColour();
         jam3.jamFlavour();
         jam3.quantity();
+        System.out.println("--------------------------------");
     }
 
 }

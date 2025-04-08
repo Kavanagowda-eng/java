@@ -11,6 +11,7 @@ public class HostelRunner {
         hostel.maintainCleanliness();
         hostel.provideSecurity();
         hostel.offerCommonFacilities();
+        System.out.println("--------------------------------");
 
         Hostel hostel1 = new ModernHostel();
         hostel1.provideAccommodation();
@@ -18,6 +19,7 @@ public class HostelRunner {
         hostel1.maintainCleanliness();
         hostel1.provideSecurity();
         hostel1.offerCommonFacilities();
+        System.out.println("--------------------------------");
 
         Hostel hostel2 = new ModernHostel();
         hostel2.provideAccommodation();
@@ -25,6 +27,7 @@ public class HostelRunner {
         hostel2.maintainCleanliness();
         hostel2.provideSecurity();
         hostel2.offerCommonFacilities();
+        System.out.println("--------------------------------");
 
         Hostel hostel3 = new ModernHostel();
         hostel3.provideAccommodation();
@@ -32,6 +35,7 @@ public class HostelRunner {
         hostel3.maintainCleanliness();
         hostel3.provideSecurity();
         hostel3.offerCommonFacilities();
+        System.out.println("--------------------------------");
 
     }
 }

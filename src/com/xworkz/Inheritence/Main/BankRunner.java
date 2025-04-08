@@ -11,6 +11,7 @@ public class BankRunner {
         bank.withdrawMoney();
         bank.provideLoan();
         bank.closeAccount();
+        System.out.println("--------------------------------");
 
         Bank bank1 = new DigitalBank();
         bank1.openAccount();
@@ -18,6 +19,7 @@ public class BankRunner {
         bank1.withdrawMoney();
         bank1.provideLoan();
         bank1.closeAccount();
+        System.out.println("--------------------------------");
 
         Bank bank2 = new DigitalBank();
         bank2.openAccount();
@@ -25,6 +27,7 @@ public class BankRunner {
         bank2.withdrawMoney();
         bank2.provideLoan();
         bank2.closeAccount();
+        System.out.println("--------------------------------");
 
         Bank bank3 = new DigitalBank();
         bank3.openAccount();
@@ -32,6 +35,7 @@ public class BankRunner {
         bank3.withdrawMoney();
         bank3.provideLoan();
         bank3.closeAccount();
+        System.out.println("--------------------------------");
 
 
     }

@@ -12,6 +12,7 @@ public class BagRunner {
             bag.zipBag();
             bag.openBag();
             bag.checkCapacity();
+            System.out.println("--------------------------------");
 
             Bag bag1 = new SchoolBag();
             bag1.storeItems();
@@ -19,6 +20,7 @@ public class BagRunner {
             bag1.zipBag();
             bag1.openBag();
             bag1.checkCapacity();
+            System.out.println("--------------------------------");
 
             Bag bag2 = new SchoolBag();
             bag2.storeItems();
@@ -26,6 +28,7 @@ public class BagRunner {
             bag2.zipBag();
             bag2.openBag();
             bag2.checkCapacity();
+            System.out.println("--------------------------------");
 
             Bag bag3 = new SchoolBag();
             bag3.storeItems();
@@ -33,6 +36,7 @@ public class BagRunner {
             bag3.zipBag();
             bag3.openBag();
             bag3.checkCapacity();
+            System.out.println("--------------------------------");
         }
     }
 

@@ -11,6 +11,7 @@ public class FurnitureRunner {
         furniture.tostore();
         furniture.design();
         furniture.showcase();
+        System.out.println("------------------------");
 
         Furniture furniture1 = new Chair();
             furniture1.sleep();
@@ -25,6 +26,7 @@ public class FurnitureRunner {
         furniture2.tostore();
         furniture2.design();
         furniture2.showcase();
+        System.out.println("------------------------");
 
         Furniture furniture3= new Chair();
         furniture3.sleep();
@@ -32,6 +34,7 @@ public class FurnitureRunner {
         furniture3.tostore();
         furniture3.design();
         furniture3.showcase();
+        System.out.println("------------------------");
 
     }
 }

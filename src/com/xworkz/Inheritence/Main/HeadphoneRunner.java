@@ -9,6 +9,23 @@ public class HeadphoneRunner {
             headphone1.show();
             headphone1.color();
             headphone1.use();
+            System.out.println("--------------------------------");
+
+            Headphone headphone2=new Headphone();
+            headphone2.type();
+            headphone2.design();
+            headphone2.show();
+            headphone2.color();
+            headphone2.use();
+            System.out.println("--------------------------------");
+
+            Headphone headphone3=new Headphone();
+            headphone3.type();
+            headphone3.design();
+            headphone3.show();
+            headphone3.color();
+            headphone3.use();
+            System.out.println("--------------------------------");
         }
 
     }

@@ -31,5 +31,23 @@ public class ArtRunner {
         artist.draw();
 
         System.out.println("-------------------------");
+
+        Artist artist2=new Artist();
+        artist2.buy();
+        artist2.sell();
+        artist2.create();
+        artist2.frame();
+        artist2.draw();
+
+        System.out.println("-------------------------");
+
+        Artist artist3=new Artist();
+        artist3.buy();
+        artist3.sell();
+        artist3.create();
+        artist3.frame();
+        artist3.draw();
+
+        System.out.println("-------------------------");
     }
 }

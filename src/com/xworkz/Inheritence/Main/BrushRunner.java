@@ -31,5 +31,23 @@ public class BrushRunner {
         colgate.use();
 
         System.out.println("--------------------------------");
+
+        Colgate colgate1=new Colgate();
+        colgate1.clean();
+        colgate1.shoes();
+        colgate1.purchase();
+        colgate1.wash();
+        colgate1.use();
+
+        System.out.println("--------------------------------");
+
+        Colgate colgate2=new Colgate();
+        colgate2.clean();
+        colgate2.shoes();
+        colgate2.purchase();
+        colgate2.wash();
+        colgate2.use();
+
+        System.out.println("--------------------------------");
     }
 }

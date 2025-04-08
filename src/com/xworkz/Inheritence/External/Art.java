@@ -19,5 +19,5 @@ public class Art {
     public void draw(){
         System.out.println("Drawing the same Art");
     }
-
 }
+

@@ -29,7 +29,37 @@ public class CourtRunner {
         lawyer.law();
         lawyer.type();
         lawyer.rating();
+        System.out.println("--------------------------------");
+
+        Lawyer lawyer1= new Lawyer();
+        lawyer1.judge();
+        lawyer1.rules();
+        lawyer1.law();
+        lawyer1.type();
+        lawyer1.rating();
 
         System.out.println("--------------------------------");
+
+        Lawyer lawyer2= new Lawyer();
+        lawyer2.judge();
+        lawyer2.rules();
+        lawyer2.law();
+        lawyer2.type();
+        lawyer2.rating();
+
+        System.out.println("--------------------------------");
+
+        Lawyer lawyer3= new Lawyer();
+        lawyer3.judge();
+        lawyer3.rules();
+        lawyer3.law();
+        lawyer3.type();
+        lawyer3.rating();
+
+        System.out.println("--------------------------------");
+
+
+
+
     }
 }

@@ -11,6 +11,7 @@ public class KitchenRunner {
         kitchen.storeIngredients();
         kitchen.useAppliances();
         kitchen.cleanKitchen();
+        System.out.println("--------------------------------");
 
         Kitchen kitchen1 = new RestaurantKitchen();
         kitchen1.cookFood();
@@ -18,6 +19,7 @@ public class KitchenRunner {
         kitchen1.storeIngredients();
         kitchen1.useAppliances();
         kitchen1.cleanKitchen();
+        System.out.println("--------------------------------");
 
         Kitchen kitchen2 = new RestaurantKitchen();
         kitchen2.cookFood();
@@ -25,6 +27,7 @@ public class KitchenRunner {
         kitchen2.storeIngredients();
         kitchen2.useAppliances();
         kitchen2.cleanKitchen();
+        System.out.println("--------------------------------");
 
         Kitchen kitchen3 = new RestaurantKitchen();
         kitchen3.cookFood();
@@ -32,5 +35,6 @@ public class KitchenRunner {
         kitchen3.storeIngredients();
         kitchen3.useAppliances();
         kitchen3.cleanKitchen();
+        System.out.println("--------------------------------");
     }
 }

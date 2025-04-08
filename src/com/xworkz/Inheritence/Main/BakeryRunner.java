@@ -34,22 +34,32 @@ public class BakeryRunner {
 
         System.out.println("--------------------------------");
 
-        Center center = new Center();
-        center.type();
-        center.location();
-        center.place();
-        center.books();
-        center.visit();
-
+        Jalebi jalebi1 = new Jalebi();
+        jalebi1.type();
+        jalebi1.location();
+        jalebi1.place();
+        jalebi1.sweets();
+        jalebi1.visit();
         System.out.println("--------------------------------");
 
-        Center center1 = new Training();
-        center1.type();
-        center1.location();
-        center1.place();
-        center1.books();
-        center1.visit();
-
+        Jalebi jalebi2 = new Jalebi();
+        jalebi2.type();
+        jalebi2.location();
+        jalebi2.place();
+        jalebi2.sweets();
+        jalebi2.visit();
         System.out.println("--------------------------------");
+
+        Jalebi jalebi3 = new Jalebi();
+        jalebi3.type();
+        jalebi3.location();
+        jalebi3.place();
+        jalebi3.sweets();
+        jalebi3.visit();
+        System.out.println("--------------------------------");
+
+
+
+
     }
 }

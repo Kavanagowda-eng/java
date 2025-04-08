@@ -11,6 +11,7 @@ public class FloorRunner {
         floor.flooringShop();
         floor.noOfGranite();
         floor.pricePerFeet();
+        System.out.println("--------------------------------");
 
         Floor floor1 = new Granite();
         floor1.pricePerFeet();
@@ -18,6 +19,7 @@ public class FloorRunner {
         floor1.noOfGranite();
         floor1.floorColour();
         floor1.flooringShop();
+        System.out.println("--------------------------------");
 
         Floor floor2 = new Granite();
         floor2.pricePerFeet();
@@ -25,6 +27,7 @@ public class FloorRunner {
         floor2.noOfGranite();
         floor2.floorColour();
         floor2.flooringShop();
+        System.out.println("--------------------------------");
 
         Floor floor3 = new Granite();
         floor3.pricePerFeet();
@@ -32,6 +35,7 @@ public class FloorRunner {
         floor3.noOfGranite();
         floor3.floorColour();
         floor3.flooringShop();
+        System.out.println("--------------------------------");
     }
 
 }

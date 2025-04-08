@@ -21,5 +21,23 @@ public class CollegeRunner {
         college1.rating();
 
         System.out.println("--------------------------------");
+
+        College college2=new College();
+        college2.construction();
+        college2.library();
+        college2.lecturers();
+        college2.students();
+        college2.rating();
+
+        System.out.println("--------------------------------");
+
+        College college3=new College();
+        college3.construction();
+        college3.library();
+        college3.lecturers();
+        college3.students();
+        college3.rating();
+
+        System.out.println("--------------------------------");
     }
 }

@@ -19,4 +19,5 @@ public class Athlete {
     public void type(){
         System.out.println("Types of athletes");
     }
+    public void energy(){System.out.println("have more energy");}
 }

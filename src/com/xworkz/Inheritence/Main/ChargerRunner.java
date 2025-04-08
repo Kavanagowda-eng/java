@@ -14,7 +14,7 @@ public class ChargerRunner {
 
         System.out.println("--------------------------------");
 
-        Charger charger1=new Cpin();
+        Charger charger1=new Charger();
         charger1.connection();
         charger1.socket();
         charger1.phone();
@@ -23,13 +23,24 @@ public class ChargerRunner {
 
         System.out.println("--------------------------------");
 
-        Cpin cpin=new Cpin();
-        cpin.connection();
-        cpin.socket();
-        cpin.phone();
-        cpin.wire();
-        cpin.current();
+        Charger charger2=new Cpin();
+        charger2.connection();
+        charger2.socket();
+        charger2.phone();
+        charger2.wire();
+        charger2.current();
 
         System.out.println("--------------------------------");
+
+        Charger charger3=new Cpin();
+        charger3.connection();
+        charger3.socket();
+        charger3.phone();
+        charger3.wire();
+        charger3.current();
+
+        System.out.println("--------------------------------");
+
+
     }
 }

@@ -11,6 +11,7 @@ public class BalmRunner {
         balm.cost();
         balm.balmColour();
         balm.balmType();
+        System.out.println("--------------------------------");
 
         Balm balm1=new ZanduBalm();
         balm1.balmType();
@@ -18,6 +19,7 @@ public class BalmRunner {
         balm1.size();
         balm1.balmName();
         balm1.cost();
+        System.out.println("--------------------------------");
 
         Balm balm2=new ZanduBalm();
         balm2.balmType();
@@ -25,6 +27,7 @@ public class BalmRunner {
         balm2.size();
         balm2.balmName();
         balm2.cost();
+        System.out.println("--------------------------------");
 
         Balm balm3=new ZanduBalm();
         balm3.balmType();
@@ -32,6 +35,7 @@ public class BalmRunner {
         balm3.size();
         balm3.balmName();
         balm3.cost();
+        System.out.println("--------------------------------");
     }
 
 }

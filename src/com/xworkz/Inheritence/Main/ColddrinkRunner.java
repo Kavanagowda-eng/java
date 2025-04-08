@@ -31,5 +31,14 @@ public class ColddrinkRunner {
         cocaCola.drink();
 
         System.out.println("--------------------------------");
+
+        CocaCola cocaCola1=new CocaCola();
+        cocaCola1.type();
+        cocaCola1.design();
+        cocaCola1.show();
+        cocaCola1.color();
+        cocaCola1.drink();
+
+        System.out.println("--------------------------------");
     }
 }

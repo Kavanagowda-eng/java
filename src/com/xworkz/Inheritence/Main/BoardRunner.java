@@ -23,12 +23,30 @@ public class BoardRunner {
 
         System.out.println("--------------------------------");
 
-        Duster duster=new Duster();
-        duster.clean();
-        duster.write();
-        duster.read();
-        duster.color();
-        duster.chalk();
+        Duster duster1=new Duster();
+        duster1.clean();
+        duster1.write();
+        duster1.read();
+        duster1.color();
+        duster1.chalk();
+
+        System.out.println("--------------------------------");
+
+        Duster duster2=new Duster();
+        duster2.clean();
+        duster2.write();
+        duster2.read();
+        duster2.color();
+        duster2.chalk();
+
+        System.out.println("--------------------------------");
+
+        Duster duster3=new Duster();
+        duster3.clean();
+        duster3.write();
+        duster3.read();
+        duster3.color();
+        duster3.chalk();
 
         System.out.println("--------------------------------");
     }

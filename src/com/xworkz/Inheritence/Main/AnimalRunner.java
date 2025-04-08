@@ -11,6 +11,7 @@ public class AnimalRunner {
         animal.drink();
         animal.walk();
         animal.sleep();
+        System.out.println("--------------------------------");
 
         Animal animal1=new Elephant();
         animal1.makeSound();
@@ -18,6 +19,8 @@ public class AnimalRunner {
         animal1.drink();
         animal1.walk();
         animal1.sleep();
+        animal1.play();
+        System.out.println("--------------------------------");
 
         Animal animal2=new Elephant();
         animal2.makeSound();
@@ -25,6 +28,8 @@ public class AnimalRunner {
         animal2.drink();
         animal2.walk();
         animal2.sleep();
+        animal2.play();
+        System.out.println("--------------------------------");
 
         Animal animal3=new Elephant();
         animal3.makeSound();
@@ -32,7 +37,8 @@ public class AnimalRunner {
         animal3.drink();
         animal3.walk();
         animal3.sleep();
-
+        animal3.play();
+        System.out.println("--------------------------------");
 
     }
 }

@@ -11,6 +11,7 @@ public class FoodRunner {
             food.eat();
             food.getIngredients();
             food.store();
+        System.out.println("--------------------------------");
 
         Food food1= new Pizza();
         food1.prepare();
@@ -18,6 +19,7 @@ public class FoodRunner {
         food1.eat();
         food1.getIngredients();
         food1.store();
+        System.out.println("--------------------------------");
 
         Food food2= new Pizza();
         food2.prepare();
@@ -25,6 +27,7 @@ public class FoodRunner {
         food2.eat();
         food2.getIngredients();
         food2.store();
+        System.out.println("--------------------------------");
 
         Food food3= new Pizza();
         food3.prepare();
@@ -32,6 +35,7 @@ public class FoodRunner {
         food3.eat();
         food3.getIngredients();
         food3.store();
+        System.out.println("--------------------------------");
 
     }
     }

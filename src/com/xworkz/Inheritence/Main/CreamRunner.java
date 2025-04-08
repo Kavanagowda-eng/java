@@ -20,6 +20,7 @@ public class CreamRunner {
             cream1.scent();
             cream1.soothingEffect();
             cream1.packaging();
+            System.out.println("--------------------------------");
 
             Cream cream2 = new ChocolateCream();
             cream2.applyCream();
@@ -27,6 +28,7 @@ public class CreamRunner {
             cream2.scent();
             cream2.soothingEffect();
             cream2.packaging();
+            System.out.println("--------------------------------");
 
             Cream cream3 = new ChocolateCream();
             cream3.applyCream();
@@ -34,6 +36,7 @@ public class CreamRunner {
             cream3.scent();
             cream3.soothingEffect();
             cream3.packaging();
+            System.out.println("--------------------------------");
 
 
         }

@@ -12,6 +12,7 @@ public class BarRunner {
             bar.offerSeating();
             bar.maintainHygiene();
             bar.operateLateNight();
+            System.out.println("--------------------------------");
 
             Bar bar1 = new SportsBar();
             bar1.serveDrinks();
@@ -19,6 +20,7 @@ public class BarRunner {
             bar1.offerSeating();
             bar1.maintainHygiene();
             bar1.operateLateNight();
+            System.out.println("--------------------------------");
 
             Bar bar2 = new SportsBar();
             bar2.serveDrinks();
@@ -26,6 +28,7 @@ public class BarRunner {
             bar2.offerSeating();
             bar2.maintainHygiene();
             bar2.operateLateNight();
+            System.out.println("--------------------------------");
 
             Bar bar3= new SportsBar();
             bar3.serveDrinks();
@@ -33,6 +36,7 @@ public class BarRunner {
             bar3.offerSeating();
             bar3.maintainHygiene();
             bar3.operateLateNight();
+            System.out.println("--------------------------------");
 
         }
     }

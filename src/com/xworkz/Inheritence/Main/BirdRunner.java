@@ -11,6 +11,7 @@ public class BirdRunner {
             bird.drink();
             bird.fly();
             bird.sleep();
+            System.out.println("--------------------------------");
 
             Bird bird1 = new Parrot();
             bird1.makeSound();
@@ -18,6 +19,7 @@ public class BirdRunner {
             bird1.drink();
             bird1.fly();
             bird1.sleep();
+            System.out.println("--------------------------------");
 
             Bird bird2 = new Parrot();
             bird2.makeSound();
@@ -25,6 +27,7 @@ public class BirdRunner {
             bird2.drink();
             bird2.fly();
             bird2.sleep();
+            System.out.println("--------------------------------");
 
             Bird bird3 = new Parrot();
             bird3.makeSound();
@@ -32,6 +35,7 @@ public class BirdRunner {
             bird3.drink();
             bird3.fly();
             bird3.sleep();
+            System.out.println("--------------------------------");
         }
     }
 

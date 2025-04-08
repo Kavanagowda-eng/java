@@ -31,5 +31,31 @@ public class CountryRunner {
         india.population();
 
         System.out.println("--------------------------------");
+
+        India india1=new India();
+        india1.type();
+        india1.flag();
+        india1.travel();
+        india1.trees();
+        india1.population();
+        System.out.println("--------------------------------");
+
+        India india2=new India();
+        india2.type();
+        india2.flag();
+        india2.travel();
+        india2.trees();
+        india2.population();
+
+        System.out.println("--------------------------------");
+
+        India india3=new India();
+        india3.type();
+        india3.flag();
+        india3.travel();
+        india3.trees();
+        india3.population();
+
+        System.out.println("--------------------------------");
     }
 }

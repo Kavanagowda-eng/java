@@ -12,6 +12,7 @@ public class GovernmentRunner {
         government.enforceLaws();
         government.conductElections();
         government.provideService();
+        System.out.println("------------------------");
 
         Government government1 = new Democracy();
         government1.makeLaws();
@@ -19,6 +20,7 @@ public class GovernmentRunner {
         government1.enforceLaws();
         government1.conductElections();
         government1.provideService();
+        System.out.println("------------------------");
 
         Government government2 = new Democracy();
         government2.makeLaws();
@@ -26,6 +28,7 @@ public class GovernmentRunner {
         government2.enforceLaws();
         government2.conductElections();
         government2.provideService();
+        System.out.println("------------------------");
 
         Government government3 = new Democracy();
         government3.makeLaws();
@@ -33,6 +36,7 @@ public class GovernmentRunner {
         government3.enforceLaws();
         government3.conductElections();
         government3.provideService();
+        System.out.println("------------------------");
 
     }
 }

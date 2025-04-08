@@ -11,6 +11,7 @@ public class EducationRunner {
         education.events();
         education.exams();
         education.teach();
+        System.out.println("--------------------------------");
 
         Education education1 = new College();
         education1.activity();
@@ -18,6 +19,7 @@ public class EducationRunner {
         education1.events();
         education1.exams();
         education1.teach();
+        System.out.println("--------------------------------");
 
         Education education2 = new College();
         education2.activity();
@@ -25,5 +27,6 @@ public class EducationRunner {
         education2.events();
         education2.exams();
         education2.teach();
+        System.out.println("--------------------------------");
     }
 }

@@ -22,5 +22,24 @@ public class IceCreamRunner {
         iceCream1.priceOf();
 
         System.out.println("------------------------");
+
+        IceCream iceCream2=new Amul();
+        iceCream2.scoop();
+        iceCream2.flavor();
+        iceCream2.eatScoop();
+        iceCream2.select();
+        iceCream2.priceOf();
+
+        System.out.println("------------------------");
+
+        IceCream iceCream3=new Amul();
+        iceCream3.scoop();
+        iceCream3.flavor();
+        iceCream3.eatScoop();
+        iceCream3.select();
+        iceCream3.priceOf();
+
+        System.out.println("------------------------");
+
     }
 }

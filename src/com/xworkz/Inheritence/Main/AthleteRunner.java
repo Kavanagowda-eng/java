@@ -23,6 +23,15 @@ public class AthleteRunner {
 
             System.out.println("--------------------------------");
 
+            Athlete athlete3 =new Sports();
+            athlete3.run();
+            athlete3.rules();
+            athlete3.fit();
+            athlete3.type();
+            athlete3.workout();
+
+            System.out.println("--------------------------------");
+
 
         }
 

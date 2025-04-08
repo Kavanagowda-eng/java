@@ -23,12 +23,21 @@ public class CameraRunner {
 
         System.out.println("------------------------");
 
-        Camera camera2=new Camera();
-        camera2.lens();
-        camera2.focus();
-        camera2.blur();
-        camera2.click();
-        camera2.quality();
+            Camera camera2=new Canon();
+            camera2.lens();
+            camera2.focus();
+            camera2.blur();
+            camera2.click();
+            camera2.quality();
+
+            System.out.println("------------------------");
+
+        Camera camera3=new Canon();
+        camera3.lens();
+        camera3.focus();
+        camera3.blur();
+        camera3.click();
+        camera3.quality();
 
         System.out.println("------------------------");
     }

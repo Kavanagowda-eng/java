@@ -21,5 +21,7 @@ public class Appliance {
         public void maintenance() {
             System.out.println("Appliance requires regular maintenance");
         }
+
+        public void repair(){System.out.println("Appliance requires repair ");}
     }
 

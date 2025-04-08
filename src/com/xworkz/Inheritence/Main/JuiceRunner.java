@@ -11,6 +11,7 @@ public class JuiceRunner {
         juice.glass();
         juice.packet();
         juice.pour();
+        System.out.println("--------------------------------");
 
             Juice juice1 = new Mango();
             juice1.drink();
@@ -18,6 +19,7 @@ public class JuiceRunner {
             juice1.glass();
             juice1.packet();
             juice1.pour();
+        System.out.println("--------------------------------");
 
             Juice juice2 = new Mango();
             juice2.drink();
@@ -25,5 +27,6 @@ public class JuiceRunner {
             juice2.glass();
             juice2.packet();
             juice2.pour();
+        System.out.println("--------------------------------");
         }
     }
