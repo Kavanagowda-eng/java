@@ -1,5 +1,6 @@
 package com.xworkz.Inheritence.Main;
 
+import com.xworkz.Inheritence.Casting.ArtCast;
 import com.xworkz.Inheritence.External.Art;
 import com.xworkz.Inheritence.internal.Artist;
 
@@ -47,7 +48,10 @@ public class ArtRunner {
         artist3.create();
         artist3.frame();
         artist3.draw();
-
         System.out.println("-------------------------");
+
+        ArtCast artCast=new ArtCast();
+        artCast.sell(art);
+        artCast.sell(artist);
     }
 }

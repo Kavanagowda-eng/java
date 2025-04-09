@@ -2,9 +2,7 @@ package com.xworkz.Inheritence.External;
 
 public class Container {
 
-
-
-        public Container(){
+    public Container(){
             System.out.println("no-argu const running in Container");
         }
         public void fill(){

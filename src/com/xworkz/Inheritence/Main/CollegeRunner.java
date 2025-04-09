@@ -1,5 +1,6 @@
 package com.xworkz.Inheritence.Main;
 
+import com.xworkz.Inheritence.Casting.CollegeCast;
 import com.xworkz.Inheritence.External.College;
 import com.xworkz.Inheritence.internal.Campus;
 public class CollegeRunner {
@@ -37,7 +38,20 @@ public class CollegeRunner {
         college3.lecturers();
         college3.students();
         college3.rating();
-
         System.out.println("--------------------------------");
+
+        Campus campus=new Campus();
+        college.construction();
+        college.library();
+        college3.lecturers();
+        college3.students();
+        college3.rating();
+        System.out.println("--------------------------------");
+
+        CollegeCast collegeCast=new CollegeCast();
+        collegeCast.equals(college1);
+        collegeCast.equals(campus);
+
+
     }
 }

@@ -1,5 +1,6 @@
 package com.xworkz.Inheritence.Main;
 
+import com.xworkz.Inheritence.Casting.AnimalCast;
 import com.xworkz.Inheritence.internal.Elephant;
 import com.xworkz.Inheritence.External.Animal;
 
@@ -40,5 +41,16 @@ public class AnimalRunner {
         animal3.play();
         System.out.println("--------------------------------");
 
+        Elephant elephant=new Elephant();
+        elephant.drink();
+        elephant.eat();
+        elephant.walk();
+        elephant.sleep();
+        elephant.makeSound();
+        System.out.println("-------------------------");
+
+    AnimalCast animalCast=new AnimalCast();
+        animalCast.eat(animal);
+        animalCast.eat(elephant);
     }
 }

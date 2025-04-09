@@ -1,7 +1,10 @@
 package com.xworkz.Inheritence.Main;
 
+import com.xworkz.Inheritence.Casting.BagCast;
+import com.xworkz.Inheritence.External.Athlete;
 import com.xworkz.Inheritence.External.Bag;
 import com.xworkz.Inheritence.internal.SchoolBag;
+import com.xworkz.Inheritence.internal.Sports;
 
 public class BagRunner {
 
@@ -37,6 +40,17 @@ public class BagRunner {
             bag3.openBag();
             bag3.checkCapacity();
             System.out.println("--------------------------------");
+
+            SchoolBag schoolBag=new SchoolBag();
+            schoolBag.color();
+            schoolBag.carryBag();
+            schoolBag.zipBag();
+            schoolBag.openBag();
+            schoolBag.storeItems();
+
+            BagCast bagCast=new BagCast();
+            bagCast.BagItems(bag);
+            bagCast.BagItems(schoolBag);
         }
     }
 

@@ -1,4 +1,5 @@
 package com.xworkz.Inheritence.Main;
+import com.xworkz.Inheritence.Casting.ClockCast;
 import com.xworkz.Inheritence.External.Clock;
 import com.xworkz.Inheritence.internal.Casio;
 
@@ -10,7 +11,22 @@ public class ClockRunner {
         clock1.lens();
         clock1.color();
         clock1.quality();
+        System.out.println("--------------------------------");
 
+        Clock clock2=new Casio();
+        clock2.type();
+        clock2.duration();
+        clock2.lens();
+        clock2.color();
+        clock2.quality();
+        System.out.println("--------------------------------");
+
+        Clock clock3=new Casio();
+        clock3.type();
+        clock3.duration();
+        clock3.lens();
+        clock3.color();
+        clock3.quality();
         System.out.println("--------------------------------");
 
         Casio casio=new Casio();
@@ -21,28 +37,9 @@ public class ClockRunner {
         casio.quality();
         System.out.println("--------------------------------");
 
-        Casio casio1=new Casio();
-        casio1.type();
-        casio1.duration();
-        casio1.lens();
-        casio1.color();
-        casio1.quality();
-        System.out.println("--------------------------------");
+        ClockCast clockCast=new ClockCast();
+        clockCast.lens(clock1);
+        clockCast.lens(casio);
 
-        Casio casio2=new Casio();
-        casio2.type();
-        casio2.duration();
-        casio2.lens();
-        casio2.color();
-        casio2.quality();
-        System.out.println("--------------------------------");
-
-        Casio casio3=new Casio();
-        casio3.type();
-        casio3.duration();
-        casio3.lens();
-        casio3.color();
-        casio3.quality();
-        System.out.println("--------------------------------");
     }
 }

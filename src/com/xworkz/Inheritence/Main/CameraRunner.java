@@ -1,5 +1,6 @@
 package com.xworkz.Inheritence.Main;
 
+import com.xworkz.Inheritence.Casting.CameraCast;
 import com.xworkz.Inheritence.External.Camera;
 import com.xworkz.Inheritence.internal.Canon;
 
@@ -11,15 +12,6 @@ public class CameraRunner {
         camera1.blur();
         camera1.click();
         camera1.quality();
-
-        System.out.println("------------------------");
-
-        Canon canon=new Canon();
-        canon.lens();
-        canon.focus();
-        canon.blur();
-        canon.click();
-        canon.quality();
 
         System.out.println("------------------------");
 
@@ -40,5 +32,17 @@ public class CameraRunner {
         camera3.quality();
 
         System.out.println("------------------------");
+
+        Canon canon=new Canon();
+        canon.lens();
+        canon.focus();
+        canon.blur();
+        canon.click();
+        canon.quality();
+
+        System.out.println("------------------------");
+        CameraCast cameraCast=new CameraCast();
+        cameraCast.quality(camera1);
+        cameraCast.quality(canon);
     }
 }

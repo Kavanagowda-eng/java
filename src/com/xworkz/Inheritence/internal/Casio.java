@@ -32,10 +32,6 @@ public class Casio extends Clock {
         super.duration();
     }
 
-    @Override
-    public boolean equals(Object obj) {
-        return super.equals(obj);
-    }
     public void Color() {
         System.out.println("color of the clock");
     }

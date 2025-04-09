@@ -11,6 +11,7 @@ public class BraceletRunner {
         bracelet1.show();
         bracelet1.color();
         bracelet1.wear();
+        System.out.println("------------------");
 
         Bracelet bracelet2 = new Cartier();
         bracelet2.type();
@@ -18,5 +19,16 @@ public class BraceletRunner {
         bracelet2.show();
         bracelet2.color();
         bracelet2.wear();
+        System.out.println("--------");
+
+        Bracelet bracelet3 = new Cartier();
+        bracelet3.type();
+        bracelet3.design();
+        bracelet3.show();
+        bracelet3.color();
+        bracelet3.wear();
+        System.out.println("--------");
+
+
     }
 }

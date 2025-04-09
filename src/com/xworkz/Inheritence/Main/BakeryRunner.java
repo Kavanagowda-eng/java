@@ -1,9 +1,9 @@
 package com.xworkz.Inheritence.Main;
 
 import com.xworkz.Inheritence.External.Bakery;
-import com.xworkz.Inheritence.External.Center;
 import com.xworkz.Inheritence.internal.Jalebi;
-import com.xworkz.Inheritence.internal.Training;
+
+
 
 public class BakeryRunner {
     public static void main(String[] args) {
@@ -22,7 +22,22 @@ public class BakeryRunner {
         bakery1.place();
         bakery1.sweets();
         bakery1.visit();
+        System.out.println("--------------------------------");
 
+        Bakery bakery2 = new Jalebi();
+        bakery2.type();
+        bakery2.location();
+        bakery2.place();
+        bakery2.sweets();
+        bakery2.visit();
+        System.out.println("--------------------------------");
+
+        Bakery bakery3 = new Jalebi();
+        bakery3.type();
+        bakery3.location();
+        bakery3.place();
+        bakery3.sweets();
+        bakery3.visit();
         System.out.println("--------------------------------");
 
         Jalebi jalebi = new Jalebi();
@@ -33,33 +48,6 @@ public class BakeryRunner {
         jalebi.visit();
 
         System.out.println("--------------------------------");
-
-        Jalebi jalebi1 = new Jalebi();
-        jalebi1.type();
-        jalebi1.location();
-        jalebi1.place();
-        jalebi1.sweets();
-        jalebi1.visit();
-        System.out.println("--------------------------------");
-
-        Jalebi jalebi2 = new Jalebi();
-        jalebi2.type();
-        jalebi2.location();
-        jalebi2.place();
-        jalebi2.sweets();
-        jalebi2.visit();
-        System.out.println("--------------------------------");
-
-        Jalebi jalebi3 = new Jalebi();
-        jalebi3.type();
-        jalebi3.location();
-        jalebi3.place();
-        jalebi3.sweets();
-        jalebi3.visit();
-        System.out.println("--------------------------------");
-
-
-
 
     }
 }

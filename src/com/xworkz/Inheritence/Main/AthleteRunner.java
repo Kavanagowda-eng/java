@@ -1,5 +1,6 @@
 package com.xworkz.Inheritence.Main;
 
+import com.xworkz.Inheritence.Casting.AthleteCast;
 import com.xworkz.Inheritence.External.Athlete;
 import com.xworkz.Inheritence.internal.Sports;
 
@@ -29,10 +30,19 @@ public class AthleteRunner {
             athlete3.fit();
             athlete3.type();
             athlete3.workout();
-
             System.out.println("--------------------------------");
 
+            Sports sports =new Sports();
+            sports.run();
+            sports.rules();
+            sports.fit();
+            sports.type();
+            sports.workout();
+            System.out.println("--------------------------------");
 
+            AthleteCast athleteCast=new AthleteCast();
+            athleteCast.run(athlete1);
+            athleteCast.run(sports);
         }
 
     }

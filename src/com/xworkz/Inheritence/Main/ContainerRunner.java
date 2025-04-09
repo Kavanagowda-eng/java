@@ -1,5 +1,6 @@
 package com.xworkz.Inheritence.Main;
 
+import com.xworkz.Inheritence.Casting.ContainerCast;
 import com.xworkz.Inheritence.External.Bottle;
 import com.xworkz.Inheritence.External.Container;
 import com.xworkz.Inheritence.internal.Bottel;
@@ -21,6 +22,22 @@ public class ContainerRunner {
         container1.size();
         System.out.println("--------------------------------");
 
+        Container container2= new Bottel();
+        container2.capacity();
+        container2.color();
+        container2.empty();
+        container2.fill();
+        container2.size();
+        System.out.println("--------------------------------");
+
+        Container container3= new Bottel();
+        container3.capacity();
+        container3.color();
+        container3.empty();
+        container3.fill();
+        container3.size();
+        System.out.println("--------------------------------");
+
         Bottel bottel1 = new Bottel();
         bottel1.capacity();
         bottel1.color();
@@ -29,20 +46,10 @@ public class ContainerRunner {
         bottel1.size();
         System.out.println("--------------------------------");
 
-        Bottel bottel2 = new Bottel();
-        bottel2.capacity();
-        bottel2.color();
-        bottel2.empty();
-        bottel2.fill();
-        bottel2.size();
-        System.out.println("--------------------------------");
+        ContainerCast containerCast=new ContainerCast();
+        containerCast.run(container);
+        containerCast.run(bottel1);
 
-        Bottel bottel3= new Bottel();
-        bottel3.capacity();
-        bottel3.color();
-        bottel3.empty();
-        bottel3.fill();
-        bottel3.size();
-        System.out.println("--------------------------------");
+
     }
 }
