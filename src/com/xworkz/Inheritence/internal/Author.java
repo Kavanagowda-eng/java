@@ -23,10 +23,6 @@ public class Author extends Textbook {
         super.write();
     }
 
-    @Override
-    public void type() {
-        super.type();
-    }
 
     public void name() {
         System.out.println("name of the author");

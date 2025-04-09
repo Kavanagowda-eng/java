@@ -1,5 +1,6 @@
 package com.xworkz.Inheritence.internal;
 
+import com.xworkz.Inheritence.External.Animal;
 import com.xworkz.Inheritence.External.Laptop;
 
 public class Acer extends Laptop {
@@ -33,10 +34,11 @@ public class Acer extends Laptop {
     public void type() {
         super.type();
     }
-    public void play(){
-        System.out.println(" playing");
 
+    public void color() {
+        System.out.println("color of the Laptop");
     }
 }
+
 
 

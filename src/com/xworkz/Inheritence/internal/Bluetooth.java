@@ -33,7 +33,7 @@ import com.xworkz.Inheritence.External.Earphone;
             super.connect();
         }
         public void color() {
-            System.out.println("color of the fruit");
+            System.out.println("color of the earphone");
         }
     }
 

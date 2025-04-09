@@ -35,7 +35,7 @@ public class Apartment extends Home {
     }
 
     public void color() {
-        System.out.println("color of the fruit");
+        System.out.println("color of the Apartment");
     }
 }
 
