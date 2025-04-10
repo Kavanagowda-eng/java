@@ -15,4 +15,9 @@ public class Bathroom {
     public String toString() {
         return "Bathroom: hasShower=" + hasShower + ", size=" + size + ", tilesColor=" + tilesColor;
     }
+
+    @Override
+    public int hashCode() {
+        return 95;
+    }
 }

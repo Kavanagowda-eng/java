@@ -5,5 +5,8 @@ public class UmbrellaRun {
     public static void main(String[] args) {
         Umbrella umbrella = new Umbrella("Sample", 456, true);
         System.out.println(umbrella);
+        System.out.println(umbrella.hashCode());
+        System.out.println("Original:"+System.identityHashCode(umbrella));
+        System.out.println("-------------------------");
     }
 }

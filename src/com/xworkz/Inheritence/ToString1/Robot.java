@@ -15,5 +15,9 @@ public class Robot {
     public String toString() {
         return "Robot: name=" + name + ", purpose=" + purpose + ", batteryLife=" + batteryLife;
     }
+    @Override
+    public int hashCode() {
+        return 94;
+    }
 }
 

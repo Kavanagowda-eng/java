@@ -15,5 +15,10 @@ public class Bus {
     public String toString() {
         return "Bus: brand=" + brand + ", seats=" + seats + ", isElectric=" + isElectric;
     }
+
+    @Override
+    public int hashCode() {
+        return 45;
+    }
 }
 

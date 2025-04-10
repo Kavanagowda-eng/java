@@ -15,4 +15,9 @@ public class Chair {
     public String toString() {
         return "Chair: material=" + material + ", legs=" + legs + ", color=" + color;
     }
+
+    @Override
+    public int hashCode() {
+        return 45;
+    }
 }

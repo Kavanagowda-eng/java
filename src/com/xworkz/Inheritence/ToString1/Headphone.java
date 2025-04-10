@@ -15,4 +15,7 @@ public class Headphone {
     public String toString() {
         return "Headphone: brand=" + brand + ", type=" + type + ", noiseCancelling=" + noiseCancelling;
     }
+    @Override
+    public int hashCode() {
+        return 93;}
 }

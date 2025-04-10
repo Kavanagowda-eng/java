@@ -6,5 +6,8 @@ public class NotebookRun {
     public static void main(String[] args) {
         Notebook notebook = new Notebook("Sample", 456, true);
         System.out.println(notebook);
+        System.out.println(notebook.hashCode());
+        System.out.println("Original:"+System.identityHashCode(notebook));
+        System.out.println("-------------------------");
     }
-}
+    }

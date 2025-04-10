@@ -15,4 +15,7 @@ public class Library {
     public String toString() {
         return "Library: books=" + books + ", floors=" + floors + ", hasDigitalSection=" + hasDigitalSection;
     }
+    @Override
+    public int hashCode() {
+        return 93;}
 }

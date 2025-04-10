@@ -15,4 +15,9 @@ public class Bottle {
     public String toString() {
         return "Bottle: material=" + material + ", capacity=" + capacity + ", isReusable=" + isReusable;
     }
+
+    @Override
+    public int hashCode() {
+        return 45;
+    }
 }

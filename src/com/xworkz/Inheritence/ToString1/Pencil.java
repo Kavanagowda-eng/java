@@ -15,4 +15,7 @@ public class Pencil {
     public String toString() {
         return "Pencil: hardness=" + hardness + ", length=" + length + ", brand=" + brand;
     }
+    @Override
+    public int hashCode() {
+        return 93;}
 }

@@ -15,4 +15,9 @@ public class Bar {
     public String toString() {
         return "Bar: drinks=" + drinks + ", musicType=" + musicType + ", hasDanceFloor=" + hasDanceFloor;
     }
+
+    @Override
+    public int hashCode() {
+        return 79;
+    }
 }

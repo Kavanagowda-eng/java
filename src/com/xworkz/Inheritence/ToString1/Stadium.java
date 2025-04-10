@@ -15,4 +15,8 @@ public class Stadium {
     public String toString() {
         return "Stadium: capacity=" + capacity + ", type=" + type + ", hasRoof=" + hasRoof;
     }
+    @Override
+    public int hashCode() {
+        return 94;
+    }
 }

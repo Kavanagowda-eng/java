@@ -15,4 +15,7 @@ public class Teacher {
     public String toString() {
         return "Teacher: name=" + name + ", subject=" + subject + ", experience=" + experience;
     }
+    @Override
+    public int hashCode() {
+        return 89;}
 }

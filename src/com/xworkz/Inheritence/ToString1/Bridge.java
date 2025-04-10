@@ -15,4 +15,9 @@ public class Bridge {
     public String toString() {
         return "Bridge: length=" + length + ", material=" + material + ", type=" + type;
     }
+
+    @Override
+    public int hashCode() {
+        return 78;
+    }
 }

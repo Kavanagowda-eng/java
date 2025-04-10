@@ -15,4 +15,8 @@ public class Cap {
     public String toString() {
         return "Cap: brand=" + brand + ", size=" + size + ", type=" + type;
     }
+    @Override
+    public int hashCode() {
+        return 45;
+    }
 }

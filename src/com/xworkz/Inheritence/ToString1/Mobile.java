@@ -15,4 +15,8 @@ public class Mobile {
     public String toString() {
         return "Mobile: brand=" + brand + ", price=" + price + ", isSmartphone=" + isSmartphone;
     }
+    @Override
+    public int hashCode() {
+        return 94;
+    }
 }

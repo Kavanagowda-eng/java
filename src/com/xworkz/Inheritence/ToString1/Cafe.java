@@ -15,4 +15,8 @@ public class Cafe {
     public String toString() {
         return "Cafe: drinks=" + drinks + ", seats=" + seats + ", isOpenLate=" + isOpenLate;
     }
+    @Override
+    public int hashCode() {
+        return 45;
+}
 }

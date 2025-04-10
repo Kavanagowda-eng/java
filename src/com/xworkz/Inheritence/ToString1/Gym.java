@@ -15,4 +15,7 @@ public class Gym {
     public String toString() {
         return "Gym: machines=" + machines + ", trainers=" + trainers + ", is24Hours=" + is24Hours;
     }
+    @Override
+    public int hashCode() {
+        return 93;}
 }

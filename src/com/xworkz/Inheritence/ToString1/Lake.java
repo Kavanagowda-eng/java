@@ -15,4 +15,7 @@ public class Lake {
         public String toString() {
             return "Lake: area=" + area + ", depth=" + depth + ", hasFish=" + hasFish;
         }
+    @Override
+    public int hashCode() {
+        return 93;}
 }

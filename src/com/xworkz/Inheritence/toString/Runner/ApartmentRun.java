@@ -5,5 +5,8 @@ public class ApartmentRun {
     public static void main(String[] args) {
         Apartment apartment = new Apartment("3rd",1200, true);
         System.out.println(apartment);
+        System.out.println(apartment.hashCode());
+        System.out.println("Original:"+System.identityHashCode(apartment));
+        System.out.println("-------------------------");
     }
 }

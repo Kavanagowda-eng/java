@@ -15,4 +15,8 @@ public class Museum {
     public String toString() {
         return "Museum: artifacts=" + artifacts + ", floors=" + floors + ", isInteractive=" + isInteractive;
     }
+    @Override
+    public int hashCode() {
+        return 94;
+    }
 }

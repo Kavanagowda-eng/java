@@ -15,5 +15,8 @@ public class Umbrella {
     public String toString() {
         return "Umbrella: color=" + color + ", size=" + size + ", isAutomatic=" + isAutomatic;
     }
+    @Override
+    public int hashCode() {
+        return 89;}
 }
 

@@ -7,7 +7,10 @@ public class BarRun {
 
             Bar bar = new Bar("Cocktails", 1, true);
             System.out.println(bar);
-
+            System.out.println(bar.hashCode());
+            System.out.println("Original:"+System.identityHashCode(bar));
+            System.out.println("-------------------------");
         }
-    }
+}
+
 

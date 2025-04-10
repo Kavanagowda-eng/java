@@ -15,4 +15,7 @@ public class Hospital {
     public String toString() {
         return "Hospital: beds=" + beds + ", departments=" + departments + ", isPrivate=" + isPrivate;
     }
+    @Override
+    public int hashCode() {
+        return 93;}
 }

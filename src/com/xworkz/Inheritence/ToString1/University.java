@@ -15,4 +15,7 @@ public class University {
     public String toString() {
         return "University: name=" + name + ", ranking=" + ranking + ", students=" + students;
     }
+    @Override
+    public int hashCode() {
+        return 67;}
 }

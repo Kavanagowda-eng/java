@@ -15,4 +15,7 @@ public class Door {
     public String toString() {
         return "Door: material=" + material + ", height=" + height + ", isSliding=" + isSliding;
     }
+    @Override
+    public int hashCode() {
+        return 93;}
 }

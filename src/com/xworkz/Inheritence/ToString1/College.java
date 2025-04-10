@@ -15,4 +15,7 @@ public class College {
     public String toString() {
         return "College: departments=" + departments + ", students=" + students + ", hasHostel=" + hasHostel;
     }
+    @Override
+    public int hashCode() {
+        return 45;}
 }

@@ -15,4 +15,8 @@ public class School {
     public String toString() {
         return "School: students=" + students + ", teachers=" + teachers + ", isPublic=" + isPublic;
     }
+    @Override
+    public int hashCode() {
+        return 94;
+    }
 }

@@ -15,5 +15,8 @@ public class TV {
     public String toString() {
         return "TV: brand=" + brand + ", size=" + size + ", isSmart=" + isSmart;
     }
+    @Override
+    public int hashCode() {
+        return 89;}
 
 }

@@ -15,4 +15,7 @@ public class Wallet {
     public String toString() {
         return "Wallet: material=" + material + ", brand=" + brand + ", hasCoinPocket=" + hasCoinPocket;
     }
+    @Override
+    public int hashCode() {
+        return 67;}
 }

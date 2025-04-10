@@ -15,4 +15,7 @@ public class Helmet {
     public String toString() {
         return "Helmet: brand=" + brand + ", size=" + size + ", type=" + type;
     }
+    @Override
+    public int hashCode() {
+        return 93;}
 }

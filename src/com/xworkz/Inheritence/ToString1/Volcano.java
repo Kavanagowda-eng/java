@@ -15,5 +15,8 @@ public class Volcano {
     public String toString() {
         return "Volcano: name=" + name + ", height=" + height + ", isActive=" + isActive;
     }
+    @Override
+    public int hashCode() {
+        return 67;}
 
 }

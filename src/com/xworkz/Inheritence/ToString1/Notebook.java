@@ -15,4 +15,8 @@ public class Notebook {
     public String toString() {
         return "Notebook: pages=" + pages + ", size=" + size + ", ruled=" + ruled;
     }
+    @Override
+    public int hashCode() {
+        return 94;
+    }
 }

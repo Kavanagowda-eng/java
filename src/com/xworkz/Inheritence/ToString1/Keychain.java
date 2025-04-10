@@ -15,5 +15,8 @@ public class Keychain {
     public String toString() {
         return "Keychain: material=" + material + ", length=" + length + ", brand=" + brand;
     }
+    @Override
+    public int hashCode() {
+        return 93;}
 
 }

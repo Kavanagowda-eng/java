@@ -15,4 +15,7 @@ public class WashingMachine {
     public String toString() {
         return "WashingMachine: brand=" + brand + ", loadCapacity=" + loadCapacity + ", type=" + type;
     }
+    @Override
+    public int hashCode() {
+        return 79;}
 }

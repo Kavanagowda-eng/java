@@ -15,4 +15,7 @@ public class Zoo {
     public String toString() {
         return "Zoo: animals=" + animals + ", area=" + area + ", hasAquarium=" + hasAquarium;
     }
+    @Override
+    public int hashCode() {
+        return 45;}
 }

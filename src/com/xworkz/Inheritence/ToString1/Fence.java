@@ -15,4 +15,7 @@ public class Fence {
     public String toString() {
         return "Fence: material=" + material + ", height=" + height + ", color=" + color;
     }
+    @Override
+    public int hashCode() {
+        return 99;}
 }

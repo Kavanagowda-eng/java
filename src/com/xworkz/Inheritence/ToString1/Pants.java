@@ -15,4 +15,8 @@ public class Pants {
     public String toString() {
         return "Pants: waist=" + waist + ", length=" + length + ", brand=" + brand;
     }
+    @Override
+    public int hashCode() {
+        return 94;
+    }
 }

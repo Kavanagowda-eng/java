@@ -15,5 +15,7 @@ public class Mall {
     public String toString() {
         return "Mall: shops=" + shops + ", floors=" + floors + ", hasFoodCourt=" + hasFoodCourt;
     }
-
+    @Override
+    public int hashCode() {
+        return 93;}
 }

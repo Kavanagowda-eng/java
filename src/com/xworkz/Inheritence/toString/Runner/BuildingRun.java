@@ -6,5 +6,8 @@ public class BuildingRun {
     public static void main(String[]args){
         Building building = new Building("10", 1, true);
         System.out.println(building);
+        System.out.println(building.hashCode());
+        System.out.println("Original:"+System.identityHashCode(building));
+        System.out.println("-------------------------");
     }
 }

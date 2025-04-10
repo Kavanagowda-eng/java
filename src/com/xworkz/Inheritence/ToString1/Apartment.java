@@ -15,4 +15,9 @@ public class Apartment {
     public String toString() {
         return "Apartment: floor=" + floor + ", area=" + area + ", balconies=" + balconies;
     }
+
+    @Override
+    public int hashCode() {
+        return 67;
+    }
 }

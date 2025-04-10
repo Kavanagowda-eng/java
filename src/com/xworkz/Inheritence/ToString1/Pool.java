@@ -15,4 +15,7 @@ public class Pool {
     public String toString() {
         return "Pool: length=" + length + ", depth=" + depth + ", isIndoor=" + isIndoor;
     }
+    @Override
+    public int hashCode() {
+        return 93;}
 }

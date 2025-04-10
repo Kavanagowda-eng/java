@@ -15,4 +15,7 @@ public class Lab {
     public String toString() {
         return "Lab: equipments=" + equipments + ", technicians=" + technicians + ", isCertified=" + isCertified;
     }
+    @Override
+    public int hashCode() {
+        return 93;}
 }

@@ -15,4 +15,8 @@ public class Scooter {
     public String toString() {
         return "Scooter: brand=" + brand + ", engineCC=" + engineCC + ", type=" + type;
     }
+    @Override
+    public int hashCode() {
+        return 94;
+    }
 }

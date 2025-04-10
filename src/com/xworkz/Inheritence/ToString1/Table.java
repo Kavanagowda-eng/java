@@ -15,4 +15,7 @@ public class Table {
     public String toString() {
         return "Table: shape=" + shape + ", length=" + length + ", woodType=" + woodType;
     }
+    @Override
+    public int hashCode() {
+        return 89;}
 }

@@ -15,4 +15,8 @@ public class Mountain {
     public String toString() {
         return "Mountain: height=" + height + ", name=" + name + ", isClimbable=" + isClimbable;
     }
+    @Override
+    public int hashCode() {
+        return 94;
+    }
 }

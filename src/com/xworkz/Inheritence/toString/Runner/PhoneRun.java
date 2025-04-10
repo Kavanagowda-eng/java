@@ -6,6 +6,9 @@ public class PhoneRun {
     public static void main(String[] args) {
         Phone phone = new Phone("Sample", 456, true);
         System.out.println(phone);
+        System.out.println(phone.hashCode());
+        System.out.println("Original:"+System.identityHashCode(phone));
+        System.out.println("-------------------------");
     }
 }
 

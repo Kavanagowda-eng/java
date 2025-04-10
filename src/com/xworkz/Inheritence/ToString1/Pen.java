@@ -15,5 +15,9 @@ public class Pen {
     public String toString() {
         return "Pen: color=" + color + ", type=" + type + ", brand=" + brand;
     }
+    @Override
+    public int hashCode() {
+        return 94;
+    }
 
 }

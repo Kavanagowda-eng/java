@@ -15,4 +15,7 @@ public class Restaurant {
     public String toString() {
         return "Restaurant: tables=" + tables + ", cuisine=" + cuisine + ", hasDelivery=" + hasDelivery;
     }
+    @Override
+    public int hashCode() {
+        return 98;}
 }

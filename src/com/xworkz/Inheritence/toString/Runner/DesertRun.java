@@ -6,5 +6,8 @@ public class DesertRun {
     public static void main(String[]args){
         Desert desert = new Desert("Golden", 40, true);
         System.out.println(desert);
+        System.out.println(desert.hashCode());
+        System.out.println("Original:"+System.identityHashCode(desert));
+        System.out.println("-------------------------");
     }
 }

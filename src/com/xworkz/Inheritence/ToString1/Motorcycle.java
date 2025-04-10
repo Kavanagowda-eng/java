@@ -15,4 +15,8 @@ public class Motorcycle {
     public String toString() {
         return "Motorcycle: brand=" + brand + ", engineCC=" + engineCC + ", type=" + type;
     }
+    @Override
+    public int hashCode() {
+        return 94;
+    }
 }

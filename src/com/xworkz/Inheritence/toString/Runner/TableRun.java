@@ -7,12 +7,9 @@ public class TableRun {
     public static void main(String[] args) {
         Table table = new Table("Sample", 456, true);
         System.out.println(table);
+        System.out.println(table.hashCode());
+        System.out.println("Original:"+System.identityHashCode(table));
+        System.out.println("-------------------------");
     }
 
-    public static class PenRun {
-        public static void main(String[] args) {
-            Pen pen = new Pen("Sample", 456, true);
-            System.out.println(pen);
-        }
-    }
 }

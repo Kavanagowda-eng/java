@@ -6,6 +6,9 @@ public class ZooRun {
     public static void main(String[] args) {
         Zoo zoo = new Zoo("Sample", 456, true);
         System.out.println(zoo);
+        System.out.println(zoo.hashCode());
+        System.out.println("Original:"+System.identityHashCode(zoo));
+        System.out.println("-------------------------");
     }
 
 }

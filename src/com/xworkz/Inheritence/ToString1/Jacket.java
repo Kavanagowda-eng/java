@@ -15,4 +15,7 @@ public class Jacket {
     public String toString() {
         return "Jacket: brand=" + brand + ", size=" + size + ", isWaterproof=" + isWaterproof;
     }
+    @Override
+    public int hashCode() {
+        return 93;}
 }

@@ -15,4 +15,7 @@ public class Truck {
     public String toString() {
         return "Truck: brand=" + brand + ", capacity=" + capacity + ", axles=" + axles;
     }
+    @Override
+    public int hashCode() {
+        return 89;}
 }

@@ -14,5 +14,10 @@ public class Camera {
     @Override
     public String toString() {
         return "Camera: brand=" + brand + ", megapixels=" + megapixels + ", isDSLR=" + isDSLR;
+
     }
+    @Override
+    public int hashCode() {
+        return 60;
+}
 }

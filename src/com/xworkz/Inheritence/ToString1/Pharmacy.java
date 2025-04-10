@@ -15,5 +15,8 @@ public class Pharmacy {
     public String toString() {
         return "Pharmacy: medicines=" + medicines + ", staff=" + staff + ", is24Hours=" + is24Hours;
     }
+    @Override
+    public int hashCode() {
+        return 95;}
 
 }

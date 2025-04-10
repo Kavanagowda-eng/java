@@ -6,6 +6,9 @@ public class KitchenRun {
     public static void main(String[] args) {
         Kitchen kitchen = new Kitchen("Sample", 456, true);
         System.out.println(kitchen);
+        System.out.println(kitchen.hashCode());
+        System.out.println("Original:"+System.identityHashCode(kitchen));
+        System.out.println("-------------------------");
     }
 }
 

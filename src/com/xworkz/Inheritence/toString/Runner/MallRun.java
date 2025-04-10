@@ -6,5 +6,8 @@ public class MallRun {
     public static void main(String[] args) {
         Mall mall = new Mall("Sample", 456, true);
         System.out.println(mall);
+        System.out.println(mall.hashCode());
+        System.out.println("Original:"+System.identityHashCode(mall));
+        System.out.println("-------------------------");
     }
 }

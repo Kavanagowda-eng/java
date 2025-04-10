@@ -15,5 +15,10 @@ public class Book {
     public String toString() {
         return "Bicycle: brand=" + brand + ", type=" + type + ", gearCount=" + gearCount;
     }
+
+    @Override
+    public int hashCode() {
+        return 56;
+    }
 }
 

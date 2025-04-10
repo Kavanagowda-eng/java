@@ -14,5 +14,8 @@ public Desert(String sandColor, int temperature, boolean hasOasis) {
 public String toString() {
     return "Desert: sandColor=" + sandColor + ", temperature=" + temperature + ", hasOasis=" + hasOasis;
 }
+    @Override
+    public int hashCode() {
+        return 93;}
 }
 

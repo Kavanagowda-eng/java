@@ -15,4 +15,7 @@ public class Kitchen {
     public String toString() {
         return "Kitchen: appliances=" + appliances + ", size=" + size + ", hasIsland=" + hasIsland;
     }
+    @Override
+    public int hashCode() {
+        return 93;}
 }

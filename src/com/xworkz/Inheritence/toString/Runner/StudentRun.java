@@ -7,12 +7,8 @@ public class StudentRun {
     public static void main(String[] args) {
         Student student = new Student("Sample", 456, true);
         System.out.println(student);
-    }
-
-    public static class PharmacyRun {
-        public static void main(String[] args) {
-            Pharmacy pharmacy = new Pharmacy("Sample", 456, true);
-            System.out.println(pharmacy);
-        }
+        System.out.println(student.hashCode());
+        System.out.println("Original:" + System.identityHashCode(student));
+        System.out.println("-------------------------");
     }
 }

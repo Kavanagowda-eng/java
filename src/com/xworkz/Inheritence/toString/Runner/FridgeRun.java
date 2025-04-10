@@ -6,5 +6,8 @@ public class FridgeRun {
     public static void main(String[] args) {
         Fridge fridge = new Fridge("Sample", 456, true);
         System.out.println(fridge);
+        System.out.println(fridge.hashCode());
+        System.out.println("Original:"+System.identityHashCode(fridge));
+        System.out.println("-------------------------");
     }
 }

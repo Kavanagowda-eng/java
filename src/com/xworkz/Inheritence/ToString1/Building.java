@@ -15,4 +15,9 @@ public class Building {
     public String toString() {
         return "Building: floors=" + floors + ", material=" + material + ", isCommercial=" + isCommercial;
     }
+
+    @Override
+    public int hashCode() {
+        return 89;
+    }
 }

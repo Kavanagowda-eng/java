@@ -15,4 +15,7 @@ public class Glove {
     public String toString() {
         return "Glove: material=" + material + ", size=" + size + ", color=" + color;
     }
+    @Override
+    public int hashCode() {
+        return 93;}
 }

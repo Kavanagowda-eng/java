@@ -15,4 +15,7 @@ public class Cushion {
     public String toString() {
         return "Cushion: color=" + color + ", size=" + size + ", material=" + material;
     }
+    @Override
+    public int hashCode() {
+        return 45;}
     }

@@ -15,5 +15,8 @@ public class Road {
     public String toString() {
         return "Road: length=" + length + ", type=" + type + ", hasLaneMarkings=" + hasLaneMarkings;
     }
+    @Override
+    public int hashCode() {
+        return 93;}
 }
 

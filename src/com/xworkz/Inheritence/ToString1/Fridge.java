@@ -16,4 +16,7 @@ public class Fridge {
         return "Fridge: brand=" + brand + ", capacity=" + capacity + ", color=" + color;
 
     }
+    @Override
+    public int hashCode() {
+        return 93;}
 }

@@ -15,5 +15,8 @@ public class Plane {
     public String toString() {
         return "Plane: model=" + model + ", seats=" + seats + ", isCommercial=" + isCommercial;
     }
+    @Override
+    public int hashCode() {
+        return 96;}
 
 }

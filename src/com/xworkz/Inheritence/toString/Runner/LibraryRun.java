@@ -6,6 +6,9 @@ public class LibraryRun {
     public static void main(String[] args) {
         Library library = new Library("Sample", 456, true);
         System.out.println(library);
+        System.out.println(library.hashCode());
+        System.out.println("Original:"+System.identityHashCode(library));
+        System.out.println("-------------------------");
     }
 
 }

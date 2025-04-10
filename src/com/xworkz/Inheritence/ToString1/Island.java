@@ -15,4 +15,7 @@ public class Island {
     public String toString() {
         return "Island: name=" + name + ", area=" + area + ", inhabited=" + inhabited;
     }
+    @Override
+    public int hashCode() {
+        return 93;}
 }

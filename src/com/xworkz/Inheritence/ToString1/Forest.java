@@ -15,4 +15,7 @@ public class Forest {
     public String toString() {
         return "Forest: trees=" + trees + ", animals=" + animals + ", area=" + area;
     }
+    @Override
+    public int hashCode() {
+        return 93;}
 }

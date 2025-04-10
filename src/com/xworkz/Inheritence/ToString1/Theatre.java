@@ -15,4 +15,7 @@ public class Theatre {
     public String toString() {
         return "Theatre: seats=" + seats + ", screenSize=" + screenSize + ", is3D=" + is3D;
     }
+    @Override
+    public int hashCode() {
+        return 89;}
 }

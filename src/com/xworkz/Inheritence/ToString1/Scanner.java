@@ -15,4 +15,8 @@ public class Scanner {
     public String toString() {
         return "Scanner: resolution=" + resolution + ", brand=" + brand + ", speed=" + speed;
     }
+    @Override
+    public int hashCode() {
+        return 94;
+    }
 }

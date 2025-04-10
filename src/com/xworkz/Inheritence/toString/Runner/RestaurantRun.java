@@ -6,5 +6,8 @@ public class RestaurantRun {
     public static void main(String[] args) {
         Restaurant restaurant = new Restaurant("Sample", 456, true);
         System.out.println(restaurant);
+        System.out.println(restaurant.hashCode());
+        System.out.println("Original:"+System.identityHashCode(restaurant));
+        System.out.println("-------------------------");
     }
 }

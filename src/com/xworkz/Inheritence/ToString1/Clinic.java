@@ -15,4 +15,7 @@ public class Clinic {
     public String toString() {
         return "Clinic: doctors=" + doctors + ", rooms=" + rooms + ", isSpecialized=" + isSpecialized;
     }
+    @Override
+    public int hashCode() {
+        return 45;}
 }

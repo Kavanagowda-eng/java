@@ -15,4 +15,9 @@ public class Beach {
     public String toString() {
         return "Beach: sandType=" + sandType + ", length=" + length + ", hasLifeguards=" + hasLifeguards;
     }
+
+    @Override
+    public int hashCode() {
+        return 78;
+    }
 }

@@ -5,4 +5,8 @@ public class ShoeRun {
         Shoe shoe = new Shoe("Sample", 456, true);
         System.out.println(shoe);
     }
+    @Override
+    public int hashCode() {
+        return 94;
+    }
 }

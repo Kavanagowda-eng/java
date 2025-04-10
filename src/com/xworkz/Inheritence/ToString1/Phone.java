@@ -15,4 +15,7 @@ public class Phone {
     public String toString() {
         return "Phone: model=" + model + ", storage=" + storage + ", is5G=" + is5G;
     }
+    @Override
+    public int hashCode() {
+        return 93;}
 }
