@@ -18,4 +18,19 @@ public class Phone {
     @Override
     public int hashCode() {
         return 93;}
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("not null");
+        }
+        if (obj instanceof Phone) {
+            Phone phone1 = this;
+            Phone phone2= (Phone) obj;
+            if (phone1.model== phone2.model && phone1.storage== phone2.storage && phone1.is5G== phone2.is5G) {
+                return true;
+            }
+        }
+        return false;
+}
 }

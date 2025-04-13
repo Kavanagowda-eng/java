@@ -18,4 +18,19 @@ public class Helmet {
     @Override
     public int hashCode() {
         return 93;}
-}
+
+    @Override
+    public boolean equals(Object obj) {
+        if(obj!=null){
+            System.out.println("not null");
+        }
+        if(obj instanceof Gym){
+           Helmet helmet1=this;
+            Helmet helmet2=(Helmet) obj;
+            if(helmet1.brand== helmet2.brand){
+                return true;
+            }
+        }
+        return false;
+    }}
+

@@ -20,4 +20,22 @@ public class Bar {
     public int hashCode() {
         return 79;
     }
+
+@Override
+public boolean equals(Object obj) {
+    if (obj != null) {
+        System.out.println("not null");
+    }
+    if (obj instanceof Bar) {
+        Bar bar1 = this;
+        Bar bar2 = (Bar) obj;
+        if (bar1.drinks ==bar2.drinks) {
+            return true;
+        }
+    }
+    return false;
 }
+
+    }
+
+

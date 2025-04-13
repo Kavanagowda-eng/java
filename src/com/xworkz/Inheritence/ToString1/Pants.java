@@ -15,8 +15,24 @@ public class Pants {
     public String toString() {
         return "Pants: waist=" + waist + ", length=" + length + ", brand=" + brand;
     }
+
     @Override
     public int hashCode() {
         return 94;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("not null");
+        }
+        if (obj instanceof Pants) {
+            Pants pants1 = this;
+            Pants pants2 = (Pants) obj;
+            if (pants1.waist == pants2.waist && pants1.length == pants2.length) {
+                return true;
+            }
+        }
+        return false;
     }
 }

@@ -19,4 +19,19 @@ public class Plane {
     public int hashCode() {
         return 96;}
 
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("not null");
+        }
+        if (obj instanceof Plane) {
+            Plane plane1 = this;
+            Plane plane2= (Plane) obj;
+            if (plane1.model== plane2.model && plane1.seats== plane2.seats && plane1.isCommercial== plane2.isCommercial) {
+                return true;
+            }
+        }
+        return false;
+    }
+
 }

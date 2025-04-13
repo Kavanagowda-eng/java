@@ -20,4 +20,20 @@ public class Bicycle {
     public int hashCode() {
         return 90;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("not null");
+        }
+        if (obj instanceof Bicycle) {
+            Bicycle bicycle1 = this;
+            Bicycle bicycle2= (Bicycle) obj;
+            if (bicycle1.brand ==bicycle2.brand) {
+                return true;
+            }
+        }
+        return false;
+    }
+
 }

@@ -20,4 +20,20 @@ public class Bottle {
     public int hashCode() {
         return 45;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("not null");
+        }
+        if (obj instanceof Bottle) {
+            Bottle bottle1 = this;
+            Bottle bottle2= (Bottle) obj;
+            if (bottle1.material ==bottle2.material) {
+                return true;
+            }
+        }
+        return false;
+    }
+
 }

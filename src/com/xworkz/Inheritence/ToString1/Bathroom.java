@@ -20,4 +20,21 @@ public class Bathroom {
     public int hashCode() {
         return 95;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("not null");
+        }
+        if (obj instanceof Bar) {
+            Bathroom bathroom1 = this;
+            Bathroom bathroom2= (Bathroom) obj;
+            if (bathroom1.hasShower ==bathroom2.hasShower) {
+                return true;
+            }
+        }
+        return false;
+    }
+
 }
+

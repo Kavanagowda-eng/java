@@ -20,4 +20,20 @@ public class Beach {
     public int hashCode() {
         return 78;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("not null");
+        }
+        if (obj instanceof Beach) {
+            Beach beach1 = this;
+           Beach beach2= (Beach) obj;
+            if (beach1.sandType ==beach2.sandType) {
+                return true;
+            }
+        }
+        return false;
+    }
+
 }

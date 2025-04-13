@@ -18,4 +18,19 @@ public class Lake {
     @Override
     public int hashCode() {
         return 93;}
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("not null");
+        }
+        if (obj instanceof Lake) {
+            Lake lake1 = this;
+           Lake lake2= (Lake) obj;
+            if (lake1.area== lake2.area && lake1.depth== lake2.depth) {
+                return true;
+            }
+        }
+        return false;
+}
 }

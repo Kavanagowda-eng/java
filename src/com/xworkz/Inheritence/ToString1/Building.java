@@ -20,4 +20,20 @@ public class Building {
     public int hashCode() {
         return 89;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("not null");
+        }
+        if (obj instanceof Building) {
+           Building building1=this;
+            Building building2=(Building) obj;
+            if(building1.floors==building2.floors){
+                return true;
+            }
+        }
+        return false;
+    }
+
 }

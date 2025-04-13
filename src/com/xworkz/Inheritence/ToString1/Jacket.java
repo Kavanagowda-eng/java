@@ -18,4 +18,20 @@ public class Jacket {
     @Override
     public int hashCode() {
         return 93;}
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("not null");
+        }
+        if (obj instanceof Jacket) {
+            Jacket jacket1 = this;
+            Jacket jacket2= (Jacket) obj;
+            if (jacket1.brand == jacket2.brand && jacket1.size== jacket2.size) {
+                return true;
+            }
+        }
+        return false;
+    }
+
 }

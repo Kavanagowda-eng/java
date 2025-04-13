@@ -18,4 +18,21 @@ public class Pool {
     @Override
     public int hashCode() {
         return 93;}
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("not null");
+        }
+        if (obj instanceof Pool) {
+            Pool pool1 = this;
+            Pool pool2= (Pool) obj;
+            if (pool1.length== pool2.length&& pool1.length== pool2.length && pool1.isIndoor== pool2.isIndoor) {
+                return true;
+            }
+        }
+        return false;
+    }
+
 }
+

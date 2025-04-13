@@ -18,4 +18,19 @@ public class Restaurant {
     @Override
     public int hashCode() {
         return 98;}
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("not null");
+        }
+        if (obj instanceof Restaurant) {
+            Restaurant restaurant1 = this;
+            Restaurant restaurant2= (Restaurant) obj;
+            if (restaurant1.tables==restaurant2.tables && restaurant1.cuisine== restaurant2.cuisine && restaurant1.hasDelivery==restaurant2.hasDelivery) {
+                return true;
+            }
+        }
+        return false;
+}
 }

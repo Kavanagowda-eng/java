@@ -15,7 +15,25 @@ public class Forest {
     public String toString() {
         return "Forest: trees=" + trees + ", animals=" + animals + ", area=" + area;
     }
+
     @Override
     public int hashCode() {
-        return 93;}
+        return 93;
+    }
+
+@Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("not null");
+        }
+        if (obj instanceof Forest) {
+            Forest forest1 = this;
+            Forest forest2 = (Forest) obj;
+            if (forest1.trees == forest2.trees) {
+
+                return true;
+            }
+        }
+        return false;
+    }
 }

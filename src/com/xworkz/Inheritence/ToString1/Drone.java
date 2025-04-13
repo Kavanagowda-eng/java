@@ -18,4 +18,18 @@ public class Drone {
     @Override
     public int hashCode() {
         return 93;}
+@Override
+    public boolean equals(Object obj) {
+        if(obj!=null){
+            System.out.println("not null");
+        }
+        if(obj instanceof Drone){
+            Drone drone1=this;
+            Drone drone2=(Drone)obj;
+            if(drone1.brand==drone2.brand){
+                return true;
+            }
+        }
+        return false;
+}
 }

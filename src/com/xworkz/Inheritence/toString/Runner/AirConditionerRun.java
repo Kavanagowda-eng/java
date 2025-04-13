@@ -7,8 +7,7 @@ public class AirConditionerRun {
         AirConditioner airConditioner = new AirConditioner("Samsung", 2, true);
         System.out.println(airConditioner);
         System.out.println(airConditioner.hashCode());
-        System.out.println("Original:"+System.identityHashCode(airConditioner));
+        System.out.println("Original:" + System.identityHashCode(airConditioner));
         System.out.println("-------------------------");
     }
 }
-

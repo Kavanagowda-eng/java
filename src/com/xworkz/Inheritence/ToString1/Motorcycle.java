@@ -19,4 +19,20 @@ public class Motorcycle {
     public int hashCode() {
         return 94;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("not null");
+        }
+        if (obj instanceof Motorcycle) {
+            Motorcycle motorcycle1 = this;
+            Motorcycle motorcycle2= (Motorcycle) obj;
+            if (motorcycle1.brand== motorcycle2.brand && motorcycle1.engineCC== motorcycle2.engineCC) {
+                return true;
+            }
+        }
+        return false;
+    }
+
 }

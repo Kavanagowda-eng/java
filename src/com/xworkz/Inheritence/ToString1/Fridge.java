@@ -19,4 +19,18 @@ public class Fridge {
     @Override
     public int hashCode() {
         return 93;}
+@Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("not null");
+        }
+        if (obj instanceof Fridge) {
+            Fridge fridge1=this;
+            Fridge fridge2=(Fridge)obj;
+            if(fridge1.brand== fridge2.brand){
+                return true;
+            }
+        }
+        return false;
+    }
 }

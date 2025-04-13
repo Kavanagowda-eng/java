@@ -19,4 +19,19 @@ public class Museum {
     public int hashCode() {
         return 94;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("not null");
+        }
+        if (obj instanceof Museum) {
+            Museum museum1 = this;
+            Museum museum2= (Museum) obj;
+            if (museum1.artifacts== museum2.artifacts && museum1.floors== museum2.floors) {
+                return true;
+            }
+        }
+        return false;
+}
 }

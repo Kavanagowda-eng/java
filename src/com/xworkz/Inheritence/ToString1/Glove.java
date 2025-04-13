@@ -18,4 +18,17 @@ public class Glove {
     @Override
     public int hashCode() {
         return 93;}
-}
+@Override
+    public boolean equals(Object obj) {
+        if(obj!=null){
+            System.out.println("not null");
+        }
+        if(obj instanceof Glove){
+            Glove glove1=this;
+            Glove glove2=(Glove) obj;
+            if(glove1.material== glove2.material){
+                return true;
+            }
+        }
+        return false;
+}}

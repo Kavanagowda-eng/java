@@ -13,10 +13,26 @@ public class Park {
 
     @Override
     public String toString() {
-        return "Pants: waist=" + waist + ", length=" + length + ", brand=" + brand;
+        return "Park : waist=" + waist + ", length=" + length + ", brand=" + brand;
     }
+
     @Override
     public int hashCode() {
         return 94;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("not null");
+        }
+        if (obj instanceof Park) {
+            Park park1 = this;
+            Park park2= (Park) obj;
+            if (park1.waist==park2.waist && park1.length== park2.length) {
+                return true;
+            }
+        }
+        return false;
+}
 }

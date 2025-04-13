@@ -18,4 +18,19 @@ public class Hospital {
     @Override
     public int hashCode() {
         return 93;}
+
+    @Override
+    public boolean equals(Object obj) {
+        if(obj!=null){
+            System.out.println("not null");
+        }
+        if(obj instanceof Hospital){
+            Hospital hospital1=this;
+           Hospital hospital2=(Hospital) obj;
+            if(hospital1.beds== hospital2.beds){
+                return true;
+            }
+        }
+        return false;
+    }
 }

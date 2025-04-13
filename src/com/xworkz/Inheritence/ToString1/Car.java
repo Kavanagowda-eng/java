@@ -18,4 +18,19 @@ public class Car {
     @Override
     public int hashCode() {
         return 45;}
+    @Override
+    public boolean equals(Object obj) {
+        if(obj!=null){
+            System.out.println("not null");
+        }
+        if(obj instanceof Bus){
+          Car car1=this;
+          Car car2=(Car)obj;
+          if(car1.model==car2.model){
+                return true;
+            }
+        }
+        return false;
     }
+}
+

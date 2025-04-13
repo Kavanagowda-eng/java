@@ -1,5 +1,4 @@
 package com.xworkz.Inheritence.ToString1;
-
 public class Bus {
     private String brand;
     private int seats;
@@ -19,6 +18,21 @@ public class Bus {
     @Override
     public int hashCode() {
         return 45;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+       if(obj!=null){
+           System.out.println("not null");
+       }
+       if(obj instanceof Bus){
+           Bus bus1=this;
+           Bus bus2=(Bus) obj;
+           if(bus1.brand==bus2.brand){
+               return true;
+           }
+       }
+       return false;
     }
 }
 

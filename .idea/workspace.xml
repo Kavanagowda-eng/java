@@ -6,15 +6,76 @@
   <component name="ChangeListManager">
     <list default="true" id="8633642c-ada3-4523-b8d3-584940cde612" name="Changes" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/AnimalRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/BarRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/CarRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/External/Textbook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/External/Textbook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/HomeRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/HostelRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/SchoolRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/VillageRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/AirConditioner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/AirConditioner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Apartment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Apartment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Bag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Bag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Bar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Bar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Bathroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Bathroom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Beach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Beach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Bicycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Bicycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Bottle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Bottle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Bridge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Bridge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Building.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Building.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Bus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Bus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Cafe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Cafe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Camera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Camera.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Cap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Cap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Chair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Chair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Clinic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Clinic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Clock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Clock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/College.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/College.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Cushion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Cushion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Desert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Desert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Door.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Door.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Drone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Drone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Fan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Fan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Fence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Fence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Forest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Forest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Fridge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Fridge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Garden.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Garden.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Glove.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Glove.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Gym.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Gym.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Headphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Headphone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Helmet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Helmet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Hospital.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Hospital.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/House.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Island.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Island.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Jacket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Jacket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Keyboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Keyboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Keychain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Keychain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Kitchen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Kitchen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Lab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Lab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Lake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Lake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Lamp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Lamp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Mall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Mall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Mirror.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Mirror.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Mobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Mobile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Motorcycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Motorcycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Mountain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Mountain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Mouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Mouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Museum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Museum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Notebook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Notebook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Pants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Pants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Park.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Park.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Pen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Pen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Pencil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Pencil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Pharmacy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Pharmacy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Phone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Plane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Plane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Pool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Pool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Printer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Restaurant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/River.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/River.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Road.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Road.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Robot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Scanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Scanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/School.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/School.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Scooter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Scooter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Ship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/ToString1/Ship.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Inheritence/toString/Runner/AirConditionerRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Inheritence/toString/Runner/AirConditionerRun.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,35 +116,55 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AnimalRunner.executor": "Run",
-    "Application.ApplianceRunner.executor": "Run",
-    "Application.BarRunner.executor": "Run",
-    "Application.CarRunner.executor": "Run",
-    "Application.EarphoneRunner.executor": "Run",
-    "Application.FoodRunner.executor": "Run",
-    "Application.HomeRunner.executor": "Run",
-    "Application.HospitalRunner.executor": "Run",
-    "Application.HostelRunner.executor": "Run",
-    "Application.MobileRunner.executor": "Run",
-    "Application.ParkRunner.executor": "Run",
-    "Application.PowerBankRunner.executor": "Run",
-    "Application.SchoolRunner.executor": "Run",
-    "Application.TempleRunner.executor": "Run",
-    "Application.TextbookRunner.executor": "Run",
-    "Application.TshirtRunner.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/kavan/OneDrive/Desktop/Xworkz/java/Principles/src/com/xworkz/Inheritence"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AirConditionerRun.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AnimalRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ApplianceRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BarRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CarRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EarphoneRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FoodRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HomeRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HospitalRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HostelRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MobileRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ParkRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PowerBankRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SchoolRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TempleRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TextbookRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TshirtRunner.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kavan/OneDrive/Desktop/Xworkz/java/Principles/src/com/xworkz/Inheritence/toString/Runner&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "module"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;module&quot;
     ]
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kavan\OneDrive\Desktop\Xworkz\java\Principles\src\com\xworkz\Inheritence\toString\Runner" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.xworkz.Inheritence.equalsRun" />
+      <recent name="com.xworkz.Inheritence.ToString1" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.xworkz.Inheritence.equalsRun.MainRunner" />
+      <module name="Principles" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

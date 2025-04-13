@@ -18,4 +18,20 @@ public class Lab {
     @Override
     public int hashCode() {
         return 93;}
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("not null");
+        }
+        if (obj instanceof Lab) {
+            Lab lab1 = this;
+            Lab lab2= (Lab) obj;
+            if (lab1.equipments== lab2.equipments && lab1.technicians== lab2.technicians) {
+                return true;
+            }
+        }
+        return false;
+    }
+
 }

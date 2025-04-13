@@ -19,4 +19,19 @@ public class Mouse {
     public int hashCode() {
         return 94;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("not null");
+        }
+        if (obj instanceof Mouse) {
+            Mouse mouse1 = this;
+            Mouse mouse2= (Mouse) obj;
+            if (mouse1.brand== mouse2.brand && mouse1.isWireless== mouse2.isWireless) {
+                return true;
+            }
+        }
+        return false;
+    }
 }

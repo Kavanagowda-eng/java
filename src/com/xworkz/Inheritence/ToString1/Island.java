@@ -18,4 +18,20 @@ public class Island {
     @Override
     public int hashCode() {
         return 93;}
+
+    @Override
+    public boolean equals(Object obj) {
+        if(obj!=null){
+            System.out.println("not null");
+        }
+        if(obj instanceof Island){
+            Island island1=this;
+            Island island2=(Island) obj;
+            if(island1.name== island2.name){
+                return true;
+            }
+        }
+        return false;
+}
+
 }

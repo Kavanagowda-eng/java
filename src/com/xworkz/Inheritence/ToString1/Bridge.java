@@ -20,4 +20,20 @@ public class Bridge {
     public int hashCode() {
         return 78;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("not null");
+        }
+        if (obj instanceof Bridge) {
+            Bridge bridge1 = this;
+            Bridge bridge2=(Bridge)obj;
+            if (bridge1.length==bridge2.length){
+                return true;
+            }
+        }
+        return false;
+    }
+
 }

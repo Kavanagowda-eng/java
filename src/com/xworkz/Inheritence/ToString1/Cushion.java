@@ -18,4 +18,20 @@ public class Cushion {
     @Override
     public int hashCode() {
         return 45;}
+
+    @Override
+    public boolean equals(Object obj) {
+        if(obj!=null){
+            System.out.println("not null");
+        }
+        if(obj instanceof Cushion){
+            Cushion cushion1=this;
+            Cushion cushion2=(Cushion) obj;
+            if(cushion1.color== cushion2.color){
+                return true;
+            }
+        }
+        return false;
     }
+}
+

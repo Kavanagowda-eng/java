@@ -18,4 +18,18 @@ public class Gym {
     @Override
     public int hashCode() {
         return 93;}
-}
+
+    @Override
+    public boolean equals(Object obj) {
+        if(obj!=null){
+            System.out.println("not null");
+        }
+        if(obj instanceof Gym){
+           Gym gym1=this;
+            Gym gym2=(Gym) obj;
+            if(gym1.machines== gym2.machines){
+                return true;
+            }
+        }
+        return false;
+}}

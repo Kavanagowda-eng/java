@@ -18,4 +18,20 @@ public class Kitchen {
     @Override
     public int hashCode() {
         return 93;}
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("not null");
+        }
+        if (obj instanceof Kitchen) {
+            Kitchen kitchen1 = this;
+            Kitchen kitchen2= (Kitchen) obj;
+            if (kitchen1.appliances== kitchen2.appliances && kitchen1.size== kitchen2.size) {
+                return true;
+            }
+        }
+        return false;
+    }
+
 }

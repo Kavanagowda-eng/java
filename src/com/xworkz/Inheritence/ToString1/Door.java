@@ -15,7 +15,23 @@ public class Door {
     public String toString() {
         return "Door: material=" + material + ", height=" + height + ", isSliding=" + isSliding;
     }
+
     @Override
     public int hashCode() {
-        return 93;}
+        return 93;
+    }
+@Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("not null");
+        }
+        if (obj instanceof Door) {
+            Door door1 = this;
+            Door door2 = (Door) obj;
+            if (door1.material == door2.material) {
+                return true;
+            }
+        }
+        return false;
+    }
 }

@@ -18,4 +18,20 @@ public class River {
     @Override
     public int hashCode() {
         return 93;}
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("not null");
+        }
+        if (obj instanceof River) {
+            River river1 = this;
+            River river2= (River) obj;
+            if (river1.name==river2.name &&river1.length== river2.length && river1.flowsThrough==river2.flowsThrough) {
+                return true;
+            }
+        }
+        return false;
+    }
+
 }

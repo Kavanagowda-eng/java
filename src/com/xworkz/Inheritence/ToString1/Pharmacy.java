@@ -19,4 +19,20 @@ public class Pharmacy {
     public int hashCode() {
         return 95;}
 
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("not null");
+        }
+        if (obj instanceof Pharmacy) {
+            Pharmacy pharmacy1 = this;
+            Pharmacy pharmacy2= (Pharmacy) obj;
+            if (pharmacy1.medicines== pharmacy2.medicines && pharmacy1.staff== pharmacy2.staff && pharmacy1.is24Hours== pharmacy2.is24Hours) {
+                return true;
+            }
+        }
+        return false;
+    }
+
 }
+

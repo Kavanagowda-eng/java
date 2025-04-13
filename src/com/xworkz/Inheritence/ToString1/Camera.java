@@ -20,4 +20,20 @@ public class Camera {
     public int hashCode() {
         return 60;
 }
+
+    @Override
+    public boolean equals(Object obj) {
+        if(obj!=null){
+            System.out.println("not null");
+        }
+        if(obj instanceof Bus){
+            Camera camera1=this;
+           Camera camera2=(Camera) obj;
+            if(camera1.brand==camera2.brand){
+                return true;
+            }
+        }
+        return false;
+    }
 }
+

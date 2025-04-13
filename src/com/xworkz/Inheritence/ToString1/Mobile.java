@@ -19,4 +19,19 @@ public class Mobile {
     public int hashCode() {
         return 94;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("not null");
+        }
+        if (obj instanceof Mobile) {
+            Mobile mobile1 = this;
+            Mobile mobile2= (Mobile) obj;
+            if (mobile1.brand== mobile2.brand && mobile1.price== mobile2.price) {
+                return true;
+            }
+        }
+        return false;
+}
 }
